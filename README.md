@@ -16,3 +16,6 @@ linreg_results_2_4_neg1.txt
 linreg_results_2_5.txt
 linreg_results_10_neg10_10_neg10.txt
 linreg_results_2_2_4_neg1.txt
+
+For the given input: 2 4 -1
+The recommended learning rate,𝝐, is 𝝐 = 1.5625e-05 
