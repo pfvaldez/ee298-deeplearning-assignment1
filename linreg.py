@@ -3,15 +3,17 @@ import numpy as np
 import numpy.linalg as la
 
 # Assignment1: Gradient Descent Optimization
-# Valdez, Paolo F. | Student No. 2009-11407
+# Valdez, Paolo F. | MSEE Student No. 2009-11407
 
 # Assumptions:
 # for third degree equations: C3 C2 C1 C0
 # for second degree equations:   C2 C1 C0
 # for first degree equations:       C1 C0
 
+#Answer:
+#For the given input: 2 4 -1 The recommended learning rate is 𝝐 = 1.5625e-05 given tolerance value, 𝛿 = 0.01
 
-tolerance = 0.1
+tolerance = 0.01
 
 # Input fxn
 # Splits spaces on integer and places in corresponding degree here
