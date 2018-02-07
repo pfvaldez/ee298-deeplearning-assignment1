@@ -10,3 +10,9 @@ an initial value of learning rate, 𝝐 = 0.001, if the polynomial degree is les
 if the current loss function is greater than the previous loss function, the learning rate is halved to avoid overshooting
 
 The two initial values of learning rate are based on trial and error experimentation.
+
+The results are in the txt files:
+linreg_results_2_4_neg1.txt
+linreg_results_2_5.txt
+linreg_results_10_neg10_10_neg10.txt
+linreg_results_2_2_4_neg1.txt
