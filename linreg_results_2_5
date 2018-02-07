@@ -1,374 +1,491 @@
-Input:
+Input: 
 2 5
 
 Output:
- 
-[[2.39804843]
- [0.72745262]] loss fxn value:  617.1320903264952 learn rate: 0.001 iteration: 1
-[[1.80641007]
- [0.90299768]] loss fxn value:  257.72605441005555 learn rate: 0.001 iteration: 2
-[[2.00636437]
- [1.06560456]] loss fxn value:  171.07904007067904 learn rate: 0.001 iteration: 3
-[[1.94100575]
- [1.2237067 ]] loss fxn value:  152.93703483679968 learn rate: 0.001 iteration: 4
-[[1.96448191]
- [1.37483118]] loss fxn value:  145.4530753101217 learn rate: 0.001 iteration: 5
-[[1.95812864]
- [1.52014543]] loss fxn value:  139.48414129904074 learn rate: 0.001 iteration: 6
-[[1.96171013]
- [1.65958359]] loss fxn value:  133.89658351675257 learn rate: 0.001 iteration: 7
-[[1.96190471]
- [1.79348003]] loss fxn value:  128.5488413125116 learn rate: 0.001 iteration: 8
-[[1.96317849]
- [1.92202256]] loss fxn value:  123.41655426096764 learn rate: 0.001 iteration: 9
-[[1.9640372 ]
- [2.04543613]] loss fxn value:  118.48939142729347 learn rate: 0.001 iteration: 10
-[[1.96498367]
- [2.16392174]] loss fxn value:  113.75896143756746 learn rate: 0.001 iteration: 11
-[[1.96585146]
- [2.27767739]] loss fxn value:  109.21738651728799 learn rate: 0.001 iteration: 12
-[[1.96669831]
- [2.38689149]] loss fxn value:  104.8571242802656 learn rate: 0.001 iteration: 13
-[[1.96750675]
- [2.4917455 ]] loss fxn value:  100.67093589584968 learn rate: 0.001 iteration: 14
-[[1.96828446]
- [2.59241343]] loss fxn value:  96.65187181330313 learn rate: 0.001 iteration: 15
-[[1.96903061]
- [2.68906242]] loss fxn value:  92.79325996070942 learn rate: 0.001 iteration: 16
-[[1.96974714]
- [2.78185292]] loss fxn value:  89.08869463774795 learn rate: 0.001 iteration: 17
-[[1.97043501]
- [2.87093896]] loss fxn value:  85.5320258779486 learn rate: 0.001 iteration: 18
-[[1.97109543]
- [2.95646843]] loss fxn value:  82.1173492386809 learn rate: 0.001 iteration: 19
-[[1.97172948]
- [3.03858333]] loss fxn value:  78.83899599911156 learn rate: 0.001 iteration: 20
-[[1.97233823]
- [3.11741998]] loss fxn value:  75.69152374952837 learn rate: 0.001 iteration: 21
-[[1.97292266]
- [3.19310925]] loss fxn value:  72.6697073563694 learn rate: 0.001 iteration: 22
-[[1.97348377]
- [3.26577679]] loss fxn value:  69.76853028795415 learn rate: 0.001 iteration: 23
-[[1.97402247]
- [3.33554324]] loss fxn value:  66.9831762865154 learn rate: 0.001 iteration: 24
-[[1.97453967]
- [3.40252442]] loss fxn value:  64.30902137270695 learn rate: 0.001 iteration: 25
-[[1.97503622]
- [3.46683152]] loss fxn value:  61.74162616931384 learn rate: 0.001 iteration: 26
-[[1.97551295]
- [3.52857131]] loss fxn value:  59.27672853142099 learn rate: 0.001 iteration: 27
-[[1.97597064]
- [3.58784627]] loss fxn value:  56.91023647080638 learn rate: 0.001 iteration: 28
-[[1.97641007]
- [3.64475481]] loss fxn value:  54.63822136281214 learn rate: 0.001 iteration: 29
-[[1.97683195]
- [3.6993914 ]] loss fxn value:  52.456911424416 learn rate: 0.001 iteration: 30
-[[1.97723698]
- [3.75184675]] loss fxn value:  50.362685452676665 learn rate: 0.001 iteration: 31
-[[1.97762585]
- [3.80220793]] loss fxn value:  48.35206681315752 learn rate: 0.001 iteration: 32
-[[1.97799919]
- [3.85055856]] loss fxn value:  46.42171766834954 learn rate: 0.001 iteration: 33
-[[1.97835763]
- [3.89697889]] loss fxn value:  44.568433436511235 learn rate: 0.001 iteration: 34
-[[1.97870175]
- [3.941546  ]] loss fxn value:  42.789137471727564 learn rate: 0.001 iteration: 35
-[[1.97903214]
- [3.98433386]] loss fxn value:  41.08087595635539 learn rate: 0.001 iteration: 36
-[[1.97934934]
- [4.02541351]] loss fxn value:  39.4408129973769 learn rate: 0.001 iteration: 37
-[[1.97965388]
- [4.06485315]] loss fxn value:  37.866225918520094 learn rate: 0.001 iteration: 38
-[[1.97994625]
- [4.10271825]] loss fxn value:  36.35450074033119 learn rate: 0.001 iteration: 39
-[[1.98022696]
- [4.13907166]] loss fxn value:  34.90312784069491 learn rate: 0.001 iteration: 40
-[[1.98049646]
- [4.17397375]] loss fxn value:  33.50969778859888 learn rate: 0.001 iteration: 41
-[[1.98075519]
- [4.20748245]] loss fxn value:  32.17189734422587 learn rate: 0.001 iteration: 42
-[[1.9810036 ]
- [4.23965339]] loss fxn value:  30.88750561873344 learn rate: 0.001 iteration: 43
-[[1.9812421 ]
- [4.27053997]] loss fxn value:  29.65439038734585 learn rate: 0.001 iteration: 44
-[[1.98147107]
- [4.30019348]] loss fxn value:  28.470504549637727 learn rate: 0.001 iteration: 45
-[[1.9816909 ]
- [4.32866313]] loss fxn value:  27.333882731132757 learn rate: 0.001 iteration: 46
-[[1.98190195]
- [4.3559962 ]] loss fxn value:  26.242638020576443 learn rate: 0.001 iteration: 47
-[[1.98210458]
- [4.38223806]] loss fxn value:  25.19495883746567 learn rate: 0.001 iteration: 48
-[[1.98229912]
- [4.40743227]] loss fxn value:  24.189105924635477 learn rate: 0.001 iteration: 49
-[[1.98248589]
- [4.43162065]] loss fxn value:  23.223409460909878 learn rate: 0.001 iteration: 50
-[[1.9826652 ]
- [4.45484337]] loss fxn value:  22.296266289023905 learn rate: 0.001 iteration: 51
-[[1.98283736]
- [4.47713897]] loss fxn value:  21.40613725421463 learn rate: 0.001 iteration: 52
-[[1.98300264]
- [4.49854447]] loss fxn value:  20.551544649063164 learn rate: 0.001 iteration: 53
-[[1.98316133]
- [4.5190954 ]] loss fxn value:  19.731069760345346 learn rate: 0.001 iteration: 54
-[[1.98331368]
- [4.53882588]] loss fxn value:  18.943350513819436 learn rate: 0.001 iteration: 55
-[[1.98345995]
- [4.55776867]] loss fxn value:  18.187079213040246 learn rate: 0.001 iteration: 56
-[[1.98360037]
- [4.57595521]] loss fxn value:  17.461000368445884 learn rate: 0.001 iteration: 57
-[[1.9837352 ]
- [4.59341569]] loss fxn value:  16.76390861311374 learn rate: 0.001 iteration: 58
-[[1.98386464]
- [4.61017909]] loss fxn value:  16.094646701725146 learn rate: 0.001 iteration: 59
-[[1.98398891]
- [4.62627326]] loss fxn value:  15.45210358941688 learn rate: 0.001 iteration: 60
-[[1.98410822]
- [4.6417249 ]] loss fxn value:  14.835212587330547 learn rate: 0.001 iteration: 61
-[[1.98422277]
- [4.65655967]] loss fxn value:  14.242949591797045 learn rate: 0.001 iteration: 62
-[[1.98433274]
- [4.6708022 ]] loss fxn value:  13.674331384217389 learn rate: 0.001 iteration: 63
-[[1.98443832]
- [4.68447612]] loss fxn value:  13.128413998816962 learn rate: 0.001 iteration: 64
-[[1.98453969]
- [4.69760415]] loss fxn value:  12.60429115556335 learn rate: 0.001 iteration: 65
-[[1.98463701]
- [4.71020806]] loss fxn value:  12.101092755646526 learn rate: 0.001 iteration: 66
-[[1.98473045]
- [4.72230879]] loss fxn value:  11.617983437023824 learn rate: 0.001 iteration: 67
-[[1.98482016]
- [4.73392643]] loss fxn value:  11.154161187631361 learn rate: 0.001 iteration: 68
-[[1.98490628]
- [4.74508026]] loss fxn value:  10.708856013960165 learn rate: 0.001 iteration: 69
-[[1.98498897]
- [4.7557888 ]] loss fxn value:  10.281328662786107 learn rate: 0.001 iteration: 70
-[[1.98506835]
- [4.76606982]] loss fxn value:  9.870869393932265 learn rate: 0.001 iteration: 71
-[[1.98514457]
- [4.77594039]] loss fxn value:  9.476796802025966 learn rate: 0.001 iteration: 72
-[[1.98521774]
- [4.78541691]] loss fxn value:  9.098456685294229 learn rate: 0.001 iteration: 73
-[[1.985288  ]
- [4.79451509]] loss fxn value:  8.735220959520623 learn rate: 0.001 iteration: 74
-[[1.98535544]
- [4.80325005]] loss fxn value:  8.386486615359564 learn rate: 0.001 iteration: 75
-[[1.9854202 ]
- [4.81163629]] loss fxn value:  8.051674717277502 learn rate: 0.001 iteration: 76
-[[1.98548237]
- [4.81968772]] loss fxn value:  7.730229442459598 learn rate: 0.001 iteration: 77
-[[1.98554205]
- [4.82741772]] loss fxn value:  7.42161715808542 learn rate: 0.001 iteration: 78
-[[1.98559936]
- [4.83483912]] loss fxn value:  7.125325535442641 learn rate: 0.001 iteration: 79
-[[1.98565438]
- [4.84196423]] loss fxn value:  6.840862699407734 learn rate: 0.001 iteration: 80
-[[1.9857072 ]
- [4.84880489]] loss fxn value:  6.567756411881707 learn rate: 0.001 iteration: 81
-[[1.98575791]
- [4.85537245]] loss fxn value:  6.305553287825527 learn rate: 0.001 iteration: 82
-[[1.9858066 ]
- [4.86167782]] loss fxn value:  6.053818042593314 learn rate: 0.001 iteration: 83
-[[1.98585334]
- [4.86773145]] loss fxn value:  5.812132769314265 learn rate: 0.001 iteration: 84
-[[1.98589822]
- [4.87354341]] loss fxn value:  5.580096245123694 learn rate: 0.001 iteration: 85
-[[1.9859413 ]
- [4.87912334]] loss fxn value:  5.3573232650907086 learn rate: 0.001 iteration: 86
-[[1.98598267]
- [4.88448051]] loss fxn value:  5.143444002737996 learn rate: 0.001 iteration: 87
-[[1.98602238]
- [4.8896238 ]] loss fxn value:  4.938103396090939 learn rate: 0.001 iteration: 88
-[[1.98606051]
- [4.89456175]] loss fxn value:  4.7409605582376475 learn rate: 0.001 iteration: 89
-[[1.98609712]
- [4.89930257]] loss fxn value:  4.551688211420993 learn rate: 0.001 iteration: 90
-[[1.98613226]
- [4.90385413]] loss fxn value:  4.3699721437231736 learn rate: 0.001 iteration: 91
-[[1.986166  ]
- [4.90822397]] loss fxn value:  4.195510687441132 learn rate: 0.001 iteration: 92
-[[1.9861984 ]
- [4.91241935]] loss fxn value:  4.028014218286459 learn rate: 0.001 iteration: 93
-[[1.9862295 ]
- [4.91644725]] loss fxn value:  3.8672046745788475 learn rate: 0.001 iteration: 94
-[[1.98625936]
- [4.92031434]] loss fxn value:  3.7128150956345425 learn rate: 0.001 iteration: 95
-[[1.98628803]
- [4.92402704]] loss fxn value:  3.5645891785836463 learn rate: 0.001 iteration: 96
-[[1.98631555]
- [4.92759152]] loss fxn value:  3.42228085288041 learn rate: 0.001 iteration: 97
-[[1.98634198]
- [4.9310137 ]] loss fxn value:  3.2856538718006023 learn rate: 0.001 iteration: 98
-[[1.98636735]
- [4.93429926]] loss fxn value:  3.1544814202469738 learn rate: 0.001 iteration: 99
-[[1.9863917 ]
- [4.93745365]] loss fxn value:  3.0285457382126273 learn rate: 0.001 iteration: 100
-[[1.98641509]
- [4.9404821 ]] loss fxn value:  2.9076377592763465 learn rate: 0.001 iteration: 101
-[[1.98643754]
- [4.94338965]] loss fxn value:  2.791556763530709 learn rate: 0.001 iteration: 102
-[[1.98645909]
- [4.94618113]] loss fxn value:  2.6801100443658723 learn rate: 0.001 iteration: 103
-[[1.98647979]
- [4.94886116]] loss fxn value:  2.573112588556498 learn rate: 0.001 iteration: 104
-[[1.98649965]
- [4.95143419]] loss fxn value:  2.470386769120301 learn rate: 0.001 iteration: 105
-[[1.98651873]
- [4.95390451]] loss fxn value:  2.371762050438788 learn rate: 0.001 iteration: 106
-[[1.98653704]
- [4.9562762 ]] loss fxn value:  2.277074705150257 learn rate: 0.001 iteration: 107
-[[1.98655462]
- [4.9585532 ]] loss fxn value:  2.1861675423450464 learn rate: 0.001 iteration: 108
-[[1.9865715 ]
- [4.96073931]] loss fxn value:  2.0988896466125144 learn rate: 0.001 iteration: 109
-[[1.98658771]
- [4.96283813]] loss fxn value:  2.0150961275051977 learn rate: 0.001 iteration: 110
-[[1.98660327]
- [4.96485317]] loss fxn value:  1.934647879005975 learn rate: 0.001 iteration: 111
-[[1.98661821]
- [4.96678776]] loss fxn value:  1.8574113485971873 learn rate: 0.001 iteration: 112
-[[1.98663255]
- [4.96864512]] loss fxn value:  1.7832583155494934 learn rate: 0.001 iteration: 113
-[[1.98664632]
- [4.97042832]] loss fxn value:  1.712065678062143 learn rate: 0.001 iteration: 114
-[[1.98665954]
- [4.97214034]] loss fxn value:  1.643715248901094 learn rate: 0.001 iteration: 115
-[[1.98667223]
- [4.973784  ]] loss fxn value:  1.578093559195803 learn rate: 0.001 iteration: 116
-[[1.98668441]
- [4.97536205]] loss fxn value:  1.5150916700689003 learn rate: 0.001 iteration: 117
-[[1.98669611]
- [4.9768771 ]] loss fxn value:  1.454604991786349 learn rate: 0.001 iteration: 118
-[[1.98670734]
- [4.97833166]] loss fxn value:  1.396533110127649 learn rate: 0.001 iteration: 119
-[[1.98671813]
- [4.97972815]] loss fxn value:  1.3407796196874542 learn rate: 0.001 iteration: 120
-[[1.98672848]
- [4.98106889]] loss fxn value:  1.2872519638326987 learn rate: 0.001 iteration: 121
-[[1.98673842]
- [4.9823561 ]] loss fxn value:  1.235861281048868 learn rate: 0.001 iteration: 122
-[[1.98674796]
- [4.98359193]] loss fxn value:  1.1865222574205478 learn rate: 0.001 iteration: 123
-[[1.98675712]
- [4.98477841]] loss fxn value:  1.1391529850012665 learn rate: 0.001 iteration: 124
-[[1.98676592]
- [4.98591753]] loss fxn value:  1.093674825837987 learn rate: 0.001 iteration: 125
-[[1.98677436]
- [4.98701117]] loss fxn value:  1.0500122814236446 learn rate: 0.001 iteration: 126
-[[1.98678247]
- [4.98806116]] loss fxn value:  1.0080928673618461 learn rate: 0.001 iteration: 127
-[[1.98679025]
- [4.98906922]] loss fxn value:  0.9678469930351586 learn rate: 0.001 iteration: 128
-[[1.98679773]
- [4.99003704]] loss fxn value:  0.9292078460772986 learn rate: 0.001 iteration: 129
-[[1.9868049 ]
- [4.99096622]] loss fxn value:  0.8921112814577181 learn rate: 0.001 iteration: 130
-[[1.98681179]
- [4.9918583 ]] loss fxn value:  0.856495714994128 learn rate: 0.001 iteration: 131
-[[1.9868184 ]
- [4.99271477]] loss fxn value:  0.8223020211162652 learn rate: 0.001 iteration: 132
-[[1.98682475]
- [4.99353705]] loss fxn value:  0.7894734347112848 learn rate: 0.001 iteration: 133
-[[1.98683085]
- [4.9943265 ]] loss fxn value:  0.7579554568876484 learn rate: 0.001 iteration: 134
-[[1.9868367 ]
- [4.99508443]] loss fxn value:  0.7276957645013856 learn rate: 0.001 iteration: 135
-[[1.98684232]
- [4.99581211]] loss fxn value:  0.6986441232941147 learn rate: 0.001 iteration: 136
-[[1.98684771]
- [4.99651073]] loss fxn value:  0.6707523044989304 learn rate: 0.001 iteration: 137
-[[1.98685289]
- [4.99718146]] loss fxn value:  0.6439740047755514 learn rate: 0.001 iteration: 138
-[[1.98685787]
- [4.99782542]] loss fxn value:  0.6182647693420315 learn rate: 0.001 iteration: 139
-[[1.98686264]
- [4.99844366]] loss fxn value:  0.5935819181750627 learn rate: 0.001 iteration: 140
-[[1.98686722]
- [4.99903723]] loss fxn value:  0.5698844751567476 learn rate: 0.001 iteration: 141
-[[1.98687162]
- [4.99960709]] loss fxn value:  0.5471331000498708 learn rate: 0.001 iteration: 142
-[[1.98687585]
- [5.00015421]] loss fxn value:  0.5252900231890821 learn rate: 0.001 iteration: 143
-[[1.9868799 ]
- [5.00067949]] loss fxn value:  0.5043189827791948 learn rate: 0.001 iteration: 144
-[[1.9868838 ]
- [5.00118379]] loss fxn value:  0.48418516469697703 learn rate: 0.001 iteration: 145
-[[1.98688754]
- [5.00166796]] loss fxn value:  0.46485514469566874 learn rate: 0.001 iteration: 146
-[[1.98689113]
- [5.0021328 ]] loss fxn value:  0.44629683291780475 learn rate: 0.001 iteration: 147
-[[1.98689457]
- [5.00257908]] loss fxn value:  0.4284794206222484 learn rate: 0.001 iteration: 148
-[[1.98689788]
- [5.00300755]] loss fxn value:  0.41137332903857443 learn rate: 0.001 iteration: 149
-[[1.98690106]
- [5.00341891]] loss fxn value:  0.39495016026328184 learn rate: 0.001 iteration: 150
-[[1.98690411]
- [5.00381385]] loss fxn value:  0.3791826501162627 learn rate: 0.001 iteration: 151
-[[1.98690703]
- [5.00419302]] loss fxn value:  0.36404462287932293 learn rate: 0.001 iteration: 152
-[[1.98690984]
- [5.00455706]] loss fxn value:  0.3495109478420058 learn rate: 0.001 iteration: 153
-[[1.98691254]
- [5.00490656]] loss fxn value:  0.3355574975815205 learn rate: 0.001 iteration: 154
-[[1.98691513]
- [5.0052421 ]] loss fxn value:  0.3221611079092084 learn rate: 0.001 iteration: 155
-[[1.98691762]
- [5.00556426]] loss fxn value:  0.3092995394152367 learn rate: 0.001 iteration: 156
-[[1.98692001]
- [5.00587355]] loss fxn value:  0.2969514405488978 learn rate: 0.001 iteration: 157
-[[1.9869223 ]
- [5.00617049]] loss fxn value:  0.2850963121729689 learn rate: 0.001 iteration: 158
-[[1.9869245 ]
- [5.00645558]] loss fxn value:  0.27371447353268524 learn rate: 0.001 iteration: 159
-[[1.98692662]
- [5.00672928]] loss fxn value:  0.2627870295839955 learn rate: 0.001 iteration: 160
-[[1.98692865]
- [5.00699206]] loss fxn value:  0.25229583962544655 learn rate: 0.001 iteration: 161
-[[1.98693059]
- [5.00724435]] loss fxn value:  0.24222348718305736 learn rate: 0.001 iteration: 162
-[[1.98693246]
- [5.00748657]] loss fxn value:  0.23255325109690098 learn rate: 0.001 iteration: 163
-[[1.98693426]
- [5.00771911]] loss fxn value:  0.22326907776236873 learn rate: 0.001 iteration: 164
-[[1.98693598]
- [5.00794237]] loss fxn value:  0.2143555544793883 learn rate: 0.001 iteration: 165
-[[1.98693764]
- [5.00815672]] loss fxn value:  0.20579788386575454 learn rate: 0.001 iteration: 166
-[[1.98693923]
- [5.00836252]] loss fxn value:  0.19758185929212446 learn rate: 0.001 iteration: 167
-[[1.98694075]
- [5.00856009]] loss fxn value:  0.1896938412972131 learn rate: 0.001 iteration: 168
-[[1.98694222]
- [5.00874978]] loss fxn value:  0.18212073494505346 learn rate: 0.001 iteration: 169
-[[1.98694362]
- [5.0089319 ]] loss fxn value:  0.17484996808594794 learn rate: 0.001 iteration: 170
-[[1.98694497]
- [5.00910674]] loss fxn value:  0.1678694704855624 learn rate: 0.001 iteration: 171
-[[1.98694627]
- [5.0092746 ]] loss fxn value:  0.16116765378671516 learn rate: 0.001 iteration: 172
-[[1.98694752]
- [5.00943577]] loss fxn value:  0.15473339227189573 learn rate: 0.001 iteration: 173
-[[1.98694871]
- [5.0095905 ]] loss fxn value:  0.14855600439311992 learn rate: 0.001 iteration: 174
-[[1.98694986]
- [5.00973905]] loss fxn value:  0.14262523503957006 learn rate: 0.001 iteration: 175
-[[1.98695096]
- [5.00988167]] loss fxn value:  0.13693123851298133 learn rate: 0.001 iteration: 176
-[[1.98695202]
- [5.0100186 ]] loss fxn value:  0.13146456218282546 learn rate: 0.001 iteration: 177
-[[1.98695303]
- [5.01015006]] loss fxn value:  0.12621613079392796 learn rate: 0.001 iteration: 178
-[[1.98695401]
- [5.01027627]] loss fxn value:  0.12117723140040508 learn rate: 0.001 iteration: 179
-[[1.98695494]
- [5.01039744]] loss fxn value:  0.11633949890165492 learn rate: 0.001 iteration: 180
-[[1.98695584]
- [5.01051378]] loss fxn value:  0.11169490215505569 learn rate: 0.001 iteration: 181
-[[1.9869567 ]
- [5.01062547]] loss fxn value:  0.10723573064355003 learn rate: 0.001 iteration: 182
-[[1.98695753]
- [5.0107327 ]] loss fxn value:  0.10295458167554394 learn rate: 0.001 iteration: 183
-[[1.98695832]
- [5.01083565]] loss fxn value:  0.09884434809522398 learn rate: 0.001 iteration: 184
 
+[[2.45662797]
+ [0.27797887]] loss fxn value:  634.0151918154002 learn rate: 0.001 iteration: 1
+[[1.85246293]
+ [0.47022834]] loss fxn value:  271.319699943418 learn rate: 0.001 iteration: 2
+[[2.05678071]
+ [0.64874619]] loss fxn value:  185.79109523817513 learn rate: 0.001 iteration: 3
+[[1.99011943]
+ [0.82216651]] loss fxn value:  167.55416922651946 learn rate: 0.001 iteration: 4
+[[2.01418516]
+ [0.98798339]] loss fxn value:  159.55343389820186 learn rate: 0.001 iteration: 5
+[[2.00778131]
+ [1.14740826]] loss fxn value:  153.02953387785698 learn rate: 0.001 iteration: 6
+[[2.01152085]
+ [1.3003921 ]] loss fxn value:  146.90213931433343 learn rate: 0.001 iteration: 7
+[[2.01179794]
+ [1.44729398]] loss fxn value:  141.0352882504603 learn rate: 0.001 iteration: 8
+[[2.01317414]
+ [1.58832255]] loss fxn value:  135.4045202324329 learn rate: 0.001 iteration: 9
+[[2.0141234 ]
+ [1.72372374]] loss fxn value:  129.99876590907886 learn rate: 0.001 iteration: 10
+[[2.01515941]
+ [1.85371838]] loss fxn value:  124.80884981644438 learn rate: 0.001 iteration: 11
+[[2.01611229]
+ [1.97852359]] loss fxn value:  119.82613260378436 learn rate: 0.001 iteration: 12
+[[2.01704113]
+ [2.09834613]] loss fxn value:  115.04233968503844 learn rate: 0.001 iteration: 13
+[[2.01792819]
+ [2.21338505]] loss fxn value:  110.44952914093777 learn rate: 0.001 iteration: 14
+[[2.01878141]
+ [2.32383128]] loss fxn value:  106.04007638732483 learn rate: 0.001 iteration: 15
+[[2.01960005]
+ [2.4298682 ]] loss fxn value:  101.80666126643257 learn rate: 0.001 iteration: 16
+[[2.02038617]
+ [2.53167182]] loss fxn value:  97.74225586528942 learn rate: 0.001 iteration: 17
+[[2.02114086]
+ [2.62941116]] loss fxn value:  93.84011284521334 learn rate: 0.001 iteration: 18
+[[2.02186543]
+ [2.72324848]] loss fxn value:  90.09375424012147 learn rate: 0.001 iteration: 19
+[[2.02256107]
+ [2.81333955]] loss fxn value:  86.496960702381 learn rate: 0.001 iteration: 20
+[[2.02322894]
+ [2.89983393]] loss fxn value:  83.0437611780352 learn rate: 0.001 iteration: 21
+[[2.02387015]
+ [2.98287522]] loss fxn value:  79.72842299422798 learn rate: 0.001 iteration: 22
+[[2.02448576]
+ [3.06260126]] loss fxn value:  76.54544234236641 learn rate: 0.001 iteration: 23
+[[2.02507679]
+ [3.13914442]] loss fxn value:  73.48953514122212 learn rate: 0.001 iteration: 24
+[[2.02564423]
+ [3.21263177]] loss fxn value:  70.55562826480312 learn rate: 0.001 iteration: 25
+[[2.02618901]
+ [3.28318529]] loss fxn value:  67.7388511204331 learn rate: 0.001 iteration: 26
+[[2.02671204]
+ [3.35092212]] loss fxn value:  65.03452756305788 learn rate: 0.001 iteration: 27
+[[2.02721419]
+ [3.41595471]] loss fxn value:  62.4381681323545 learn rate: 0.001 iteration: 28
+[[2.0276963 ]
+ [3.47839102]] loss fxn value:  59.945462599757256 learn rate: 0.001 iteration: 29
+[[2.02815916]
+ [3.5383347 ]] loss fxn value:  57.552272813026725 learn rate: 0.001 iteration: 30
+[[2.02860354]
+ [3.59588525]] loss fxn value:  55.25462582648363 learn rate: 0.001 iteration: 31
+[[2.02903017]
+ [3.65113823]] loss fxn value:  53.04870730550295 learn rate: 0.001 iteration: 32
+[[2.02943978]
+ [3.70418536]] loss fxn value:  50.930855194319136 learn rate: 0.001 iteration: 33
+[[2.02983303]
+ [3.75511469]] loss fxn value:  48.89755363662976 learn rate: 0.001 iteration: 34
+[[2.03021059]
+ [3.80401079]] loss fxn value:  46.94542713890606 learn rate: 0.001 iteration: 35
+[[2.03057307]
+ [3.85095482]] loss fxn value:  45.07123496672008 learn rate: 0.001 iteration: 36
+[[2.03092108]
+ [3.89602471]] loss fxn value:  43.271865764786135 learn rate: 0.001 iteration: 37
+[[2.03125519]
+ [3.93929529]] loss fxn value:  41.54433239178518 learn rate: 0.001 iteration: 38
+[[2.03157597]
+ [3.98083838]] loss fxn value:  39.885766961397444 learn rate: 0.001 iteration: 39
+[[2.03188394]
+ [4.02072296]] loss fxn value:  38.2934160813107 learn rate: 0.001 iteration: 40
+[[2.03217962]
+ [4.05901523]] loss fxn value:  36.76463628230072 learn rate: 0.001 iteration: 41
+[[2.03246349]
+ [4.09577877]] loss fxn value:  35.29688962979561 learn rate: 0.001 iteration: 42
+[[2.03273603]
+ [4.13107461]] loss fxn value:  33.887739510638404 learn rate: 0.001 iteration: 43
+[[2.03299768]
+ [4.16496134]] loss fxn value:  32.53484658805427 learn rate: 0.001 iteration: 44
+[[2.0332489 ]
+ [4.19749522]] loss fxn value:  31.235964918106287 learn rate: 0.001 iteration: 45
+[[2.03349008]
+ [4.22873025]] loss fxn value:  29.988938221193465 learn rate: 0.001 iteration: 46
+[[2.03372163]
+ [4.25871829]] loss fxn value:  28.791696302400705 learn rate: 0.001 iteration: 47
+[[2.03394394]
+ [4.28750913]] loss fxn value:  27.642251614758347 learn rate: 0.001 iteration: 48
+[[2.03415738]
+ [4.31515056]] loss fxn value:  26.538695959706267 learn rate: 0.001 iteration: 49
+[[2.03436229]
+ [4.34168846]] loss fxn value:  25.479197319284204 learn rate: 0.001 iteration: 50
+[[2.03455902]
+ [4.3671669 ]] loss fxn value:  24.46199681479016 learn rate: 0.001 iteration: 51
+[[2.0347479 ]
+ [4.39162817]] loss fxn value:  23.48540578685755 learn rate: 0.001 iteration: 52
+[[2.03492924]
+ [4.41511287]] loss fxn value:  22.547802992103954 learn rate: 0.001 iteration: 53
+[[2.03510334]
+ [4.43766001]] loss fxn value:  21.647631911697033 learn rate: 0.001 iteration: 54
+[[2.03527049]
+ [4.45930699]] loss fxn value:  20.783398167370475 learn rate: 0.001 iteration: 55
+[[2.03543096]
+ [4.48008977]] loss fxn value:  19.953667040599488 learn rate: 0.001 iteration: 56
+[[2.03558503]
+ [4.50004284]] loss fxn value:  19.157061090817727 learn rate: 0.001 iteration: 57
+[[2.03573295]
+ [4.51919933]] loss fxn value:  18.392257868721966 learn rate: 0.001 iteration: 58
+[[2.03587496]
+ [4.53759104]] loss fxn value:  17.657987720867276 learn rate: 0.001 iteration: 59
+[[2.03601131]
+ [4.5552485 ]] loss fxn value:  16.953031681909888 learn rate: 0.001 iteration: 60
+[[2.0361422 ]
+ [4.57220103]] loss fxn value:  16.276219450996653 learn rate: 0.001 iteration: 61
+[[2.03626788]
+ [4.58847676]] loss fxn value:  15.626427448943312 learn rate: 0.001 iteration: 62
+[[2.03638854]
+ [4.60410273]] loss fxn value:  15.00257695297521 learn rate: 0.001 iteration: 63
+[[2.03650437]
+ [4.61910486]] loss fxn value:  14.403632305934561 learn rate: 0.001 iteration: 64
+[[2.03661559]
+ [4.63350806]] loss fxn value:  13.828599196981237 learn rate: 0.001 iteration: 65
+[[2.03672236]
+ [4.64733625]] loss fxn value:  13.276523010932392 learn rate: 0.001 iteration: 66
+[[2.03682488]
+ [4.66061237]] loss fxn value:  12.746487243501576 learn rate: 0.001 iteration: 67
+[[2.0369233 ]
+ [4.67335848]] loss fxn value:  12.237611979805454 learn rate: 0.001 iteration: 68
+[[2.03701779]
+ [4.68559573]] loss fxn value:  11.749052433612851 learn rate: 0.001 iteration: 69
+[[2.03710851]
+ [4.69734443]] loss fxn value:  11.279997544911472 learn rate: 0.001 iteration: 70
+[[2.0371956 ]
+ [4.70862409]] loss fxn value:  10.82966863346294 learn rate: 0.001 iteration: 71
+[[2.03727922]
+ [4.71945344]] loss fxn value:  10.397318106112316 learn rate: 0.001 iteration: 72
+[[2.0373595 ]
+ [4.72985045]] loss fxn value:  9.9822282157052 learn rate: 0.001 iteration: 73
+[[2.03743658]
+ [4.73983238]] loss fxn value:  9.583709869552093 learn rate: 0.001 iteration: 74
+[[2.03751058]
+ [4.7494158 ]] loss fxn value:  9.20110148546244 learn rate: 0.001 iteration: 75
+[[2.03758162]
+ [4.75861663]] loss fxn value:  8.833767893448925 learn rate: 0.001 iteration: 76
+[[2.03764983]
+ [4.76745013]] loss fxn value:  8.481099281278883 learn rate: 0.001 iteration: 77
+[[2.03771532]
+ [4.77593098]] loss fxn value:  8.142510182121804 learn rate: 0.001 iteration: 78
+[[2.03777819]
+ [4.78407325]] loss fxn value:  7.817438502613528 learn rate: 0.001 iteration: 79
+[[2.03783855]
+ [4.79189045]] loss fxn value:  7.50534458972205 learn rate: 0.001 iteration: 80
+[[2.0378965 ]
+ [4.79939557]] loss fxn value:  7.205710334867074 learn rate: 0.001 iteration: 81
+[[2.03795214]
+ [4.80660107]] loss fxn value:  6.918038313805477 learn rate: 0.001 iteration: 82
+[[2.03800555]
+ [4.8135189 ]] loss fxn value:  6.641850960855152 learn rate: 0.001 iteration: 83
+[[2.03805684]
+ [4.82016055]] loss fxn value:  6.37668977608567 learn rate: 0.001 iteration: 84
+[[2.03810607]
+ [4.82653705]] loss fxn value:  6.12211456416066 learn rate: 0.001 iteration: 85
+[[2.03815334]
+ [4.83265898]] loss fxn value:  5.877702703567176 learn rate: 0.001 iteration: 86
+[[2.03819873]
+ [4.83853651]] loss fxn value:  5.6430484450199705 learn rate: 0.001 iteration: 87
+[[2.0382423 ]
+ [4.84417939]] loss fxn value:  5.417762237875057 learn rate: 0.001 iteration: 88
+[[2.03828413]
+ [4.84959699]] loss fxn value:  5.201470083434818 learn rate: 0.001 iteration: 89
+[[2.03832429]
+ [4.85479831]] loss fxn value:  4.993812914071169 learn rate: 0.001 iteration: 90
+[[2.03836285]
+ [4.85979197]] loss fxn value:  4.794445997135512 learn rate: 0.001 iteration: 91
+[[2.03839987]
+ [4.86458627]] loss fxn value:  4.603038362666378 learn rate: 0.001 iteration: 92
+[[2.03843541]
+ [4.86918918]] loss fxn value:  4.419272253945004 learn rate: 0.001 iteration: 93
+[[2.03846954]
+ [4.87360832]] loss fxn value:  4.242842599985409 learn rate: 0.001 iteration: 94
+[[2.0385023 ]
+ [4.87785103]] loss fxn value:  4.073456509084967 learn rate: 0.001 iteration: 95
+[[2.03853375]
+ [4.88192437]] loss fxn value:  3.9108327825934386 learn rate: 0.001 iteration: 96
+[[2.03856394]
+ [4.88583508]] loss fxn value:  3.754701448093528 learn rate: 0.001 iteration: 97
+[[2.03859294]
+ [4.88958967]] loss fxn value:  3.604803311218765 learn rate: 0.001 iteration: 98
+[[2.03862077]
+ [4.89319437]] loss fxn value:  3.4608895253634024 learn rate: 0.001 iteration: 99
+[[2.03864749]
+ [4.89665516]] loss fxn value:  3.3227211785712396 learn rate: 0.001 iteration: 100
+[[2.03867315]
+ [4.89997778]] loss fxn value:  3.1900688969164364 learn rate: 0.001 iteration: 101
+[[2.03869778]
+ [4.90316775]] loss fxn value:  3.0627124637191234 learn rate: 0.001 iteration: 102
+[[2.03872143]
+ [4.90623037]] loss fxn value:  2.94044045396248 learn rate: 0.001 iteration: 103
+[[2.03874413]
+ [4.90917073]] loss fxn value:  2.8230498833050053 learn rate: 0.001 iteration: 104
+[[2.03876593]
+ [4.91199369]] loss fxn value:  2.7103458711053086 learn rate: 0.001 iteration: 105
+[[2.03878686]
+ [4.91470396]] loss fxn value:  2.602141316900046 learn rate: 0.001 iteration: 106
+[[2.03880695]
+ [4.91730602]] loss fxn value:  2.4982565897971045 learn rate: 0.001 iteration: 107
+[[2.03882624]
+ [4.9198042 ]] loss fxn value:  2.3985192302699394 learn rate: 0.001 iteration: 108
+[[2.03884476]
+ [4.92220265]] loss fxn value:  2.3027636638564237 learn rate: 0.001 iteration: 109
+[[2.03886254]
+ [4.92450535]] loss fxn value:  2.2108309262881254 learn rate: 0.001 iteration: 110
+[[2.03887961]
+ [4.92671611]] loss fxn value:  2.122568399592662 learn rate: 0.001 iteration: 111
+[[2.038896  ]
+ [4.92883862]] loss fxn value:  2.0378295587323003 learn rate: 0.001 iteration: 112
+[[2.03891173]
+ [4.93087638]] loss fxn value:  1.9564737283566391 learn rate: 0.001 iteration: 113
+[[2.03892684]
+ [4.9328328 ]] loss fxn value:  1.8783658492670858 learn rate: 0.001 iteration: 114
+[[2.03894134]
+ [4.93471111]] loss fxn value:  1.8033762542042766 learn rate: 0.001 iteration: 115
+[[2.03895527]
+ [4.93651443]] loss fxn value:  1.7313804525868965 learn rate: 0.001 iteration: 116
+[[2.03896864]
+ [4.93824576]] loss fxn value:  1.662258923844325 learn rate: 0.001 iteration: 117
+[[2.03898147]
+ [4.93990797]] loss fxn value:  1.5958969189998893 learn rate: 0.001 iteration: 118
+[[2.03899379]
+ [4.94150382]] loss fxn value:  1.5321842701756379 learn rate: 0.001 iteration: 119
+[[2.03900562]
+ [4.94303596]] loss fxn value:  1.4710152077020193 learn rate: 0.001 iteration: 120
+[[2.03901698]
+ [4.94450693]] loss fxn value:  1.4122881845292858 learn rate: 0.001 iteration: 121
+[[2.03902789]
+ [4.94591918]] loss fxn value:  1.355905707648519 learn rate: 0.001 iteration: 122
+[[2.03903836]
+ [4.94727504]] loss fxn value:  1.3017741762434003 learn rate: 0.001 iteration: 123
+[[2.03904841]
+ [4.94857678]] loss fxn value:  1.2498037263026451 learn rate: 0.001 iteration: 124
+[[2.03905806]
+ [4.94982654]] loss fxn value:  1.199908081436672 learn rate: 0.001 iteration: 125
+[[2.03906732]
+ [4.95102641]] loss fxn value:  1.1520044096494637 learn rate: 0.001 iteration: 126
+[[2.03907622]
+ [4.95217838]] loss fxn value:  1.1060131858291002 learn rate: 0.001 iteration: 127
+[[2.03908476]
+ [4.95328437]] loss fxn value:  1.06185805972742 learn rate: 0.001 iteration: 128
+[[2.03909296]
+ [4.95434619]] loss fxn value:  1.0194657292108635 learn rate: 0.001 iteration: 129
+[[2.03910083]
+ [4.95536563]] loss fxn value:  0.9787658185711146 learn rate: 0.001 iteration: 130
+[[2.03910839]
+ [4.95634436]] loss fxn value:  0.939690761694061 learn rate: 0.001 iteration: 131
+[[2.03911564]
+ [4.95728403]] loss fxn value:  0.9021756898930773 learn rate: 0.001 iteration: 132
+[[2.03912261]
+ [4.95818618]] loss fxn value:  0.8661583242201963 learn rate: 0.001 iteration: 133
+[[2.0391293 ]
+ [4.95905231]] loss fxn value:  0.8315788720762445 learn rate: 0.001 iteration: 134
+[[2.03913572]
+ [4.95988386]] loss fxn value:  0.7983799279493121 learn rate: 0.001 iteration: 135
+[[2.03914188]
+ [4.96068222]] loss fxn value:  0.7665063781152546 learn rate: 0.001 iteration: 136
+[[2.0391478]
+ [4.9614487]] loss fxn value:  0.735905309143341 learn rate: 0.001 iteration: 137
+[[2.03915348]
+ [4.96218458]] loss fxn value:  0.7065259200542844 learn rate: 0.001 iteration: 138
+[[2.03915894]
+ [4.96289109]] loss fxn value:  0.6783194379853426 learn rate: 0.001 iteration: 139
+[[2.03916417]
+ [4.96356939]] loss fxn value:  0.6512390372222944 learn rate: 0.001 iteration: 140
+[[2.0391692 ]
+ [4.96422061]] loss fxn value:  0.6252397614637968 learn rate: 0.001 iteration: 141
+[[2.03917403]
+ [4.96484583]] loss fxn value:  0.6002784491893047 learn rate: 0.001 iteration: 142
+[[2.03917867]
+ [4.96544609]] loss fxn value:  0.5763136620062017 learn rate: 0.001 iteration: 143
+[[2.03918312]
+ [4.96602239]] loss fxn value:  0.5533056158580648 learn rate: 0.001 iteration: 144
+[[2.03918739]
+ [4.96657568]] loss fxn value:  0.5312161149786527 learn rate: 0.001 iteration: 145
+[[2.03919149]
+ [4.96710688]] loss fxn value:  0.5100084884832043 learn rate: 0.001 iteration: 146
+[[2.03919543]
+ [4.96761687]] loss fxn value:  0.48964752949062273 learn rate: 0.001 iteration: 147
+[[2.03919921]
+ [4.9681065 ]] loss fxn value:  0.4700994366766882 learn rate: 0.001 iteration: 148
+[[2.03920284]
+ [4.96857659]] loss fxn value:  0.4513317581600351 learn rate: 0.001 iteration: 149
+[[2.03920632]
+ [4.96902791]] loss fxn value:  0.433313337628923 learn rate: 0.001 iteration: 150
+[[2.03920967]
+ [4.96946121]] loss fxn value:  0.4160142626181867 learn rate: 0.001 iteration: 151
+[[2.03921288]
+ [4.96987721]] loss fxn value:  0.39940581485158183 learn rate: 0.001 iteration: 152
+[[2.03921596]
+ [4.9702766 ]] loss fxn value:  0.3834604225664787 learn rate: 0.001 iteration: 153
+[[2.03921892]
+ [4.97066005]] loss fxn value:  0.36815161474179037 learn rate: 0.001 iteration: 154
+[[2.03922177]
+ [4.97102819]] loss fxn value:  0.3534539771532758 learn rate: 0.001 iteration: 155
+[[2.0392245 ]
+ [4.97138164]] loss fxn value:  0.3393431101832184 learn rate: 0.001 iteration: 156
+[[2.03922712]
+ [4.97172097]] loss fxn value:  0.32579558831471184 learn rate: 0.001 iteration: 157
+[[2.03922963]
+ [4.97204675]] loss fxn value:  0.3127889212426537 learn rate: 0.001 iteration: 158
+[[2.03923205]
+ [4.97235953]] loss fxn value:  0.3003015165374597 learn rate: 0.001 iteration: 159
+[[2.03923437]
+ [4.97265983]] loss fxn value:  0.28831264379966665 learn rate: 0.001 iteration: 160
+[[2.03923659]
+ [4.97294813]] loss fxn value:  0.2768024002448791 learn rate: 0.001 iteration: 161
+[[2.03923873]
+ [4.97322492]] loss fxn value:  0.2657516776633682 learn rate: 0.001 iteration: 162
+[[2.03924078]
+ [4.97349067]] loss fxn value:  0.2551421306983966 learn rate: 0.001 iteration: 163
+[[2.03924275]
+ [4.9737458 ]] loss fxn value:  0.24495614639082475 learn rate: 0.001 iteration: 164
+[[2.03924464]
+ [4.97399075]] loss fxn value:  0.23517681493989695 learn rate: 0.001 iteration: 165
+[[2.03924646]
+ [4.97422592]] loss fxn value:  0.2257879016313655 learn rate: 0.001 iteration: 166
+[[2.0392482]
+ [4.9744517]] loss fxn value:  0.2167738198857878 learn rate: 0.001 iteration: 167
+[[2.03924988]
+ [4.97466847]] loss fxn value:  0.20811960538340427 learn rate: 0.001 iteration: 168
+[[2.03925148]
+ [4.97487658]] loss fxn value:  0.19981089122189177 learn rate: 0.001 iteration: 169
+[[2.03925303]
+ [4.97507639]] loss fxn value:  0.19183388406550358 learn rate: 0.001 iteration: 170
+[[2.03925451]
+ [4.97526822]] loss fxn value:  0.18417534124701923 learn rate: 0.001 iteration: 171
+[[2.03925593]
+ [4.97545239]] loss fxn value:  0.1768225487832668 learn rate: 0.001 iteration: 172
+[[2.03925729]
+ [4.9756292 ]] loss fxn value:  0.16976330026872594 learn rate: 0.001 iteration: 173
+[[2.03925861]
+ [4.97579896]] loss fxn value:  0.16298587661150618 learn rate: 0.001 iteration: 174
+[[2.03925986]
+ [4.97596194]] loss fxn value:  0.15647902657863735 learn rate: 0.001 iteration: 175
+[[2.03926107]
+ [4.97611842]] loss fxn value:  0.1502319481176046 learn rate: 0.001 iteration: 176
+[[2.03926223]
+ [4.97626864]] loss fxn value:  0.1442342704238589 learn rate: 0.001 iteration: 177
+[[2.03926335]
+ [4.97641287]] loss fxn value:  0.1384760367243094 learn rate: 0.001 iteration: 178
+[[2.03926441]
+ [4.97655135]] loss fxn value:  0.13294768774806345 learn rate: 0.001 iteration: 179
+[[2.03926544]
+ [4.97668429]] loss fxn value:  0.12764004585675784 learn rate: 0.001 iteration: 180
+[[2.03926643]
+ [4.97681193]] loss fxn value:  0.12254429980904365 learn rate: 0.001 iteration: 181
+[[2.03926737]
+ [4.97693447]] loss fxn value:  0.11765199013273119 learn rate: 0.001 iteration: 182
+[[2.03926828]
+ [4.97705212]] loss fxn value:  0.11295499508152862 learn rate: 0.001 iteration: 183
+[[2.03926915]
+ [4.97716507]] loss fxn value:  0.10844551715170553 learn rate: 0.001 iteration: 184
+[[2.03926999]
+ [4.97727351]] loss fxn value:  0.10411607013754502 learn rate: 0.001 iteration: 185
+[[2.0392708 ]
+ [4.97737762]] loss fxn value:  0.09995946670366791 learn rate: 0.001 iteration: 186
+[[2.03927157]
+ [4.97747758]] loss fxn value:  0.09596880645306298 learn rate: 0.001 iteration: 187
+[[2.03927231]
+ [4.97757354]] loss fxn value:  0.09213746447172264 learn rate: 0.001 iteration: 188
+[[2.03927302]
+ [4.97766568]] loss fxn value:  0.08845908033077153 learn rate: 0.001 iteration: 189
+[[2.0392737 ]
+ [4.97775414]] loss fxn value:  0.08492754752727093 learn rate: 0.001 iteration: 190
+[[2.03927436]
+ [4.97783906]] loss fxn value:  0.08153700334698757 learn rate: 0.001 iteration: 191
+[[2.03927499]
+ [4.9779206 ]] loss fxn value:  0.07828181913138871 learn rate: 0.001 iteration: 192
+[[2.03927559]
+ [4.97799888]] loss fxn value:  0.07515659093384887 learn rate: 0.001 iteration: 193
+[[2.03927617]
+ [4.97807403]] loss fxn value:  0.07215613054824638 learn rate: 0.001 iteration: 194
+[[2.03927673]
+ [4.97814618]] loss fxn value:  0.0692754568960506 learn rate: 0.001 iteration: 195
+[[2.03927726]
+ [4.97821546]] loss fxn value:  0.06650978775741767 learn rate: 0.001 iteration: 196
+[[2.03927778]
+ [4.97828196]] loss fxn value:  0.06385453183184162 learn rate: 0.001 iteration: 197
+[[2.03927827]
+ [4.97834582]] loss fxn value:  0.061305281116452094 learn rate: 0.001 iteration: 198
+[[2.03927874]
+ [4.97840712]] loss fxn value:  0.058857803588105995 learn rate: 0.001 iteration: 199
+[[2.0392792 ]
+ [4.97846598]] loss fxn value:  0.0565080361777299 learn rate: 0.001 iteration: 200
+[[2.03927964]
+ [4.97852248]] loss fxn value:  0.05425207802537632 learn rate: 0.001 iteration: 201
+[[2.03928005]
+ [4.97857673]] loss fxn value:  0.052086184004225045 learn rate: 0.001 iteration: 202
+[[2.03928046]
+ [4.97862882]] loss fxn value:  0.050006758503343414 learn rate: 0.001 iteration: 203
+[[2.03928084]
+ [4.97867882]] loss fxn value:  0.04801034945877214 learn rate: 0.001 iteration: 204
+[[2.03928121]
+ [4.97872683]] loss fxn value:  0.04609364262228581 learn rate: 0.001 iteration: 205
+[[2.03928157]
+ [4.97877292]] loss fxn value:  0.04425345605977772 learn rate: 0.001 iteration: 206
+[[2.03928191]
+ [4.97881718]] loss fxn value:  0.04248673486894891 learn rate: 0.001 iteration: 207
+[[2.03928224]
+ [4.97885966]] loss fxn value:  0.040790546107561436 learn rate: 0.001 iteration: 208
+[[2.03928255]
+ [4.97890045]] loss fxn value:  0.039162073924573035 learn rate: 0.001 iteration: 209
+[[2.03928286]
+ [4.97893961]] loss fxn value:  0.03759861488567408 learn rate: 0.001 iteration: 210
+[[2.03928315]
+ [4.97897721]] loss fxn value:  0.036097573485063206 learn rate: 0.001 iteration: 211
+[[2.03928343]
+ [4.97901331]] loss fxn value:  0.0346564578368741 learn rate: 0.001 iteration: 212
+[[2.03928369]
+ [4.97904796]] loss fxn value:  0.033272875538196564 learn rate: 0.001 iteration: 213
+[[2.03928395]
+ [4.97908123]] loss fxn value:  0.03194452969748275 learn rate: 0.001 iteration: 214
+[[2.0392842 ]
+ [4.97911318]] loss fxn value:  0.030669215121555224 learn rate: 0.001 iteration: 215
+[[2.03928443]
+ [4.97914385]] loss fxn value:  0.02944481465464901 learn rate: 0.001 iteration: 216
+[[2.03928466]
+ [4.97917329]] loss fxn value:  0.02826929566375698 learn rate: 0.001 iteration: 217
+[[2.03928488]
+ [4.97920156]] loss fxn value:  0.027140706664204005 learn rate: 0.001 iteration: 218
+[[2.03928509]
+ [4.9792287 ]] loss fxn value:  0.0260571740801446 learn rate: 0.001 iteration: 219
+[[2.03928529]
+ [4.97925475]] loss fxn value:  0.025016899133982615 learn rate: 0.001 iteration: 220
+[[2.03928548]
+ [4.97927977]] loss fxn value:  0.02401815486033249 learn rate: 0.001 iteration: 221
+[[2.03928567]
+ [4.97930379]] loss fxn value:  0.02305928323908751 learn rate: 0.001 iteration: 222
+[[2.03928585]
+ [4.97932685]] loss fxn value:  0.02213869244299704 learn rate: 0.001 iteration: 223
+[[2.03928602]
+ [4.97934898]] loss fxn value:  0.021254854194896783 learn rate: 0.001 iteration: 224
+[[2.03928618]
+ [4.97937024]] loss fxn value:  0.020406301230708798 learn rate: 0.001 iteration: 225
+[[2.03928634]
+ [4.97939064]] loss fxn value:  0.019591624863710754 learn rate: 0.001 iteration: 226
+[[2.03928649]
+ [4.97941024]] loss fxn value:  0.01880947264572896 learn rate: 0.001 iteration: 227
+[[2.03928664]
+ [4.97942904]] loss fxn value:  0.018058546122227813 learn rate: 0.001 iteration: 228
+[[2.03928677]
+ [4.9794471 ]] loss fxn value:  0.017337598676519485 learn rate: 0.001 iteration: 229
+[[2.03928691]
+ [4.97946444]] loss fxn value:  0.01664543346036303 learn rate: 0.001 iteration: 230
+[[2.03928704]
+ [4.97948108]] loss fxn value:  0.01598090140693969 learn rate: 0.001 iteration: 231
+[[2.03928716]
+ [4.97949706]] loss fxn value:  0.015342899323568769 learn rate: 0.001 iteration: 232
+[[2.03928728]
+ [4.97951241]] loss fxn value:  0.014730368059871053 learn rate: 0.001 iteration: 233
+[[2.03928739]
+ [4.97952714]] loss fxn value:  0.014142290749790332 learn rate: 0.001 iteration: 234
+[[2.0392875 ]
+ [4.97954128]] loss fxn value:  0.01357769112348045 learn rate: 0.001 iteration: 235
+[[2.03928761]
+ [4.97955486]] loss fxn value:  0.013035631886408338 learn rate: 0.001 iteration: 236
+[[2.03928771]
+ [4.97956789]] loss fxn value:  0.012515213163422334 learn rate: 0.001 iteration: 237
+[[2.0392878 ]
+ [4.97958041]] loss fxn value:  0.012015571005017493 learn rate: 0.001 iteration: 238
+[[2.0392879 ]
+ [4.97959242]] loss fxn value:  0.011535875952835374 learn rate: 0.001 iteration: 239
+[[2.03928799]
+ [4.97960396]] loss fxn value:  0.011075331662824055 learn rate: 0.001 iteration: 240
+[[2.03928807]
+ [4.97961503]] loss fxn value:  0.01063317358325291 learn rate: 0.001 iteration: 241
+[[2.03928815]
+ [4.97962567]] loss fxn value:  0.01020866768545964 learn rate: 0.001 iteration: 242
+[[2.03928823]
+ [4.97963587]] loss fxn value:  0.009801109245142289 learn rate: 0.001 iteration: 243
